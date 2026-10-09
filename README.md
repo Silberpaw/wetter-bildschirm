@@ -43,13 +43,6 @@ weather-app/
 
 ### 1. Repository klonen
 
-```bash
-git clone DEINE_GITHUB_REPOSITORY_URL
-cd DEIN_PROJEKTORDNER
-```
-
-Ersetze die URL und den Ordnernamen durch die Angaben deiner Wetter-App.
-
 ### 2. Abhängigkeiten installieren
 
 ```bash
