@@ -246,3 +246,62 @@
   }
 }
 
+.forecast-section {
+  margin-top: 28px;
+}
+
+.forecast-section h2 {
+  margin-bottom: 16px;
+  color: #f8fafc;
+  font-size: 1.3rem;
+}
+
+.forecast-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.forecast-card {
+  min-width: 0;
+  padding: 14px 6px;
+  border: 1px solid #64748b44;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #1e293bdc, #111827ee);
+  text-align: center;
+}
+
+.forecast-date {
+  color: #cbd5e1;
+  font-size: 0.75rem;
+}
+
+.forecast-icon {
+  margin: 10px 0;
+  font-size: 1.8rem;
+}
+
+.forecast-description {
+  min-height: 32px;
+  color: #a5b4fc;
+  font-size: 0.7rem;
+}
+
+.forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.8rem;
+}
+
+.forecast-temperatures span {
+  color: #94a3b8;
+}
+
+@media (max-width: 500px) {
+  .forecast-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+

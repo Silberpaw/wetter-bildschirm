@@ -49,7 +49,26 @@
     </div>
   </div>
 </section>
+<section class="forecast-section" *ngIf="forecast.length"> 
+  <h2>5-Tage-Vorhersage</h2> <div class="forecast-list"> 
+    <div class="forecast-card" *ngFor="let day of forecast"> 
+      <p class="forecast-date"> {{ day.date | date:'EEE, dd.MM.':'':'de' }} 
 
+      </p> 
+      <div class="forecast-icon">{{ day.icon }}
+
+      </div> 
+      <p class="forecast-description">{{ day.description }}
+
+      </p> <div class="forecast-temperatures">
+         <strong>{{ day.maxTemp | number:'1.0-0' }}°
+
+         </strong> 
+         <span>{{ day.minTemp | number:'1.0-0' }}°</span> 
+        </div> 
+      </div> 
+    </div> 
+  </section>
 
   </main>
 </div>
