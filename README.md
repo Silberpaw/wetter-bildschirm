@@ -33,8 +33,6 @@ weather-app/
 └── README.md
 ```
 
-Die genaue Ordnerstruktur kann je nach Projekt abweichen.
-
 ## 🚀 Installation
 
 ### Voraussetzungen
