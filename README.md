@@ -1,59 +1,71 @@
-# WetterBildschirm
+# 🌦️ Wetter-App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.5.
+Eine moderne Wetter-App, mit der Nutzer Wetterinformationen übersichtlich abrufen können.
 
-## Development server
+## ✨ Features
 
-To start a local development server, run:
+*  Anzeige der Temperatur
+*  Aktuelle Wetterbedingungen
+*  Luftfeuchtigkeit
+*  Windgeschwindigkeit
+*  Wetterabfrage für verschiedene Städte
+*  Übersichtliche und moderne Benutzeroberfläche
+*  Benutzerfreundliches Design
 
-```bash
-ng serve
+
+## 🛠️ Technologien
+
+* HTML
+* CSS
+* TypeScript
+* Angular
+* Eine Wetter-API zur Abfrage aktueller Wetterdaten
+
+## 📁 Projektstruktur
+
+```text
+weather-app/
+├── src/
+│   ├── app/          # Komponenten und App-Logik
+│   ├── assets/       # Bilder und weitere Ressourcen
+│   └── styles.css    # Globale Styles
+├── package.json
+└── README.md
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Die genaue Ordnerstruktur kann je nach Projekt abweichen.
 
-## Code scaffolding
+## 🚀 Installation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Voraussetzungen
 
-```bash
-ng generate component component-name
-```
+* [Node.js](https://nodejs.org/)
+* npm
+* [Git](https://git-scm.com/)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+### 1. Repository klonen
 
 ```bash
-ng build
+git clone DEINE_GITHUB_REPOSITORY_URL
+cd DEIN_PROJEKTORDNER
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Ersetze die URL und den Ordnernamen durch die Angaben deiner Wetter-App.
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+### 2. Abhängigkeiten installieren
 
 ```bash
-ng test
+npm install
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### 3. App starten
 
 ```bash
-ng e2e
+npx ng serve
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Öffne anschließend die angezeigte lokale Adresse im Browser:
 
-## Additional Resources
+http://localhost:4200
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
