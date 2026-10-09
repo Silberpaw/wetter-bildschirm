@@ -25,15 +25,16 @@
 <section class="weather-card">
 <h2>{{ city }}</h2>
 
-<div class="temperature">
-  {{ temperature === null ? '…' : temperature + '°C' }}
+
+<div class="weather-visual">
+  <div class="weather-icon-large">{{ weatherIcon }}</div>
+
+  <div class="temperature">
+    {{ temperature === null ? '…' : temperature + '°C' }}
+  </div>
+
+  <p class="condition">{{ weatherDescription }}</p>
 </div>
-
-<p class="condition">
-  <span class="weather-icon">{{ weatherIcon }}</span>
-  {{ weatherDescription }}
-</p>
-
   <div class="weather-details">
     <div>
       <span>💧</span>
@@ -48,7 +49,7 @@
     </div>
   </div>
 </section>
-```
+
 
   </main>
 </div>
