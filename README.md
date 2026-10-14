@@ -1,10 +1,10 @@
-
-
-<img width="965" height="912" alt="Wetter1" src="https://github.com/user-attachments/assets/8991fc9a-3eca-4f9b-9619-c10fa075b785" />
-<img width="642" height="905" alt="Screenshot 2026-10-09 134235" src="https://github.com/user-attachments/assets/16fd31ce-2f3a-435a-bf6f-0fb53fb5770b" />
 # 🌦️ Wetter-App
 
 Eine moderne Wetter-App, mit der Nutzer Wetterinformationen übersichtlich abrufen können.
+
+<img width="965" height="912" alt="Wetter1" src="https://github.com/user-attachments/assets/8991fc9a-3eca-4f9b-9619-c10fa075b785" />
+<img width="642" height="905" alt="Screenshot 2026-10-09 134235" src="https://github.com/user-attachments/assets/16fd31ce-2f3a-435a-bf6f-0fb53fb5770b" />
+
 
 ## ✨ Features
 
